@@ -1,0 +1,221 @@
+*{
+  box-sizing:border-box; 
+}
+
+body {
+    margin: 0;
+
+    background-color: rgb(18, 24, 42);
+
+    color: #f1f1f1;
+
+    font-family: Arial, sans-serif;
+}
+
+
+header{
+    height: 100px;
+    background-color: rgb(18,24,42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.navbar {
+    height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 6%;
+
+    border-bottom: 1px solid #293148;
+}
+
+.navbar h2 {
+    margin: 0;
+
+    font-family: Georgia, serif;
+
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+
+    gap: 32px;
+}
+
+.nav-links a {
+    color: #8f96aa;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #e5a900;
+}
+
+.nav-links .active {
+    color: #e5a900;
+}
+
+
+/* ------------------------------
+   Main Work Section
+------------------------------ */
+
+.work-section {
+    max-width: 620px;
+
+    margin: 40px auto 100px;
+
+    padding: 0 20px;
+}
+
+
+/* Small yellow heading */
+
+.section-label {
+    color: #e5a900;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-bottom: 12px;
+}
+
+
+/* Main heading */
+
+.work-section h1 {
+    margin: 0 0 45px;
+
+    font-family: Georgia, serif;
+
+    font-size: 40px;
+
+    line-height: 1.2;
+}
+
+
+/* ------------------------------
+   Timeline
+------------------------------ */
+
+.timeline {
+    border-left: 1px solid #30394f;
+
+    padding-left: 30px;
+}
+
+
+/* Individual project */
+
+.project {
+    position: relative;
+
+    margin-bottom: 60px;
+}
+
+
+/* Yellow timeline dot */
+
+.project::before {
+    content: "";
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 9px;
+
+    background-color: #e5a900;
+
+    border-radius: 50%;
+
+    left: -35px;
+
+    top: 6px;
+}
+
+
+/* Project status */
+
+.project-status {
+    margin: 0 0 8px;
+
+    color: #e5a900;
+
+    font-size: 15px;
+}
+
+
+/* Project title */
+
+.project h2 {
+    margin: 0 0 18px;
+
+    font-family: Georgia, serif;
+
+    font-size: 24px;
+}
+
+
+/* Project description */
+
+.project-description {
+    margin: 0;
+
+    color: #aeb5c7;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* ------------------------------
+   Mobile
+------------------------------ */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 0 25px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .work-section {
+        margin-top: 30px;
+    }
+
+    .work-section h1 {
+        font-size: 34px;
+    }
+
+    .project h2 {
+        font-size: 22px;
+    }
+
+    .project-description {
+        font-size: 16px;
+    }
+}

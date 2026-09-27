@@ -1,0 +1,113 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding:0;  
+}
+
+.navbar{
+    height: 100px;
+    display:flex;
+    font-size: 5rem;
+    font-weight: 600;
+    background-color: rgb(18,24,42);
+    color: #edfff3;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+.option{
+     display:flex;
+     justify-content:space-evenly;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: rgb(18,24,42);
+    color: #edfff3;
+    font-family: cursive;
+}
+
+.content{
+    height: 880px;
+    background-color: rgb(18,24,42);
+    color: #edfff3;
+}
+
+h1{
+    padding-top: 150px;
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 100px;
+    
+}
+
+
+h6{
+    padding-left: 23dvh;
+    padding-top: 2dvh;
+    font-size: 75px;
+    color: #A9B2C6;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    width: 0;
+    animation: typing 3s steps(27) infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 27ch;
+    }
+}
+
+.contentpro{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 52ch;
+    padding-left: 200px;
+    font-size:30px;
+}
+
+.contact{
+    display: flex;
+    background-color: rgb(18,24,42);
+    color: #edfff3;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(18,24,42);
+    width: 100%;
+    min-height: 200px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram{
+    background-color: rgb(18,24,42);
+    color: whitesmoke;
+    font-size: 3rem;
+ 
+}
+
+.Github{
+    background-color: rgb(18,24,42);
+    color: white;
+    font-size: 3rem;
+}
+
+.linkedin{
+     background-color: rgb(18,24,42);
+    color: whitesmoke;
+    font-size: 3rem;
+   
+}
