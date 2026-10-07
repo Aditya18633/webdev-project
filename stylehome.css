@@ -108,6 +108,53 @@ h6{
 .linkedin{
      background-color: rgb(18,24,42);
     color: whitesmoke;
-    font-size: 3rem;
-   
+    font-size: 3rem;  
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .option {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    h1 {
+        padding-top: 100px;
+        padding-left: 20px;
+        font-size: 50px;
+    }
+
+    h6 {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    .contentpro {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .contact {
+        font-size: 2rem;
+    }
+
+    .contactme {
+        gap: 20px;
+    }
+
+    .instagram,
+    .Github,
+    .linkedin {
+        font-size: 2rem;
+    }
 }
